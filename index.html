@@ -4,6 +4,15 @@
     <head>
         <title>我的网页</title>
         <link rel="stylesheet" href="./a.css">
+        <script src="//at.alicdn.com/t/font_990609_u1nooyw65ks.js"></script>
+        <style type="text/css">
+            .icon {
+               width: 1em; height: 1em;
+               vertical-align: -0.15em;
+               fill: currentColor;
+               overflow: hidden;
+            }
+        </style>
     </head>
 
     <body>
@@ -30,12 +39,14 @@
         </div>
         <main>
             <div class="userCard">
-                <div class="pictureAndText">
+                <div class="pictureAndText clearfix">
                     <div class="picture">
                         <img src="./img/avatar.jpg" width=299 height=341 alt="头像">
                     </div>
                     <div class="text">
-                            <span class="welcome">Hello</span>
+                            <span class="welcome">Hello
+                                <span class="triangle"></span>
+                            </span>
                             <h1>我是王大锤</h1>
                             <p>前端开发工程师</p>
                             <hr>
@@ -53,13 +64,36 @@
                 </div>
 
                 <footer class="media">
-                    <a href="#"><img src="" alt="..."></a>
-                    <a href="#"><img src="" alt="..."></a>
-                    <a href="#"><img src="" alt="..."></a>
-                    <a href="#"><img src="" alt="..."></a>
-                    <a href="#"><img src="" alt="..."></a>
-                    <a href="#"><img src="" alt="..."></a>
-                    <a href="#"><img src="" alt="..."></a>
+                    <a href="#">
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="icon-instagram"></use>
+                        </svg>
+                    </a>
+                    <a href="#">
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-facebook"></use>
+                        </svg>
+                    </a>
+                    <a href="#">
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-dribble"></use>
+                        </svg>
+                    </a>
+                    <a href="#">
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-weibo"></use>
+                        </svg>
+                    </a>
+                    <a href="#">
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-github"></use>
+                        </svg>
+                    </a>
+                    <a href="#">
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-twitter"></use>
+                        </svg>
+                    </a>
                 </footer>
 
             </div>
