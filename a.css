@@ -46,7 +46,7 @@ hr{
 
 .banner .mask {
     height: 515px;
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 .topNavBar nav>ul {
@@ -97,6 +97,7 @@ hr{
     margin-left: auto;
     margin-right: auto;
     background-color: #FFFFFF;
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.36);
 }
 
 .userCard .welcome {
@@ -182,5 +183,41 @@ hr{
     height: 30px;
     fill: white; /*颜色*/
     vertical-align: top;
+}
+
+body > main {
+    margin-top: -340px;
+}
+
+body > main .downloadResume {
+    font-size: 14px;
+    line-height: 16px;
+    padding: 21px 55px;
+    border: 1px solid #cbcdcf;
+    border-radius: 2px;
+    background-color: #efefef;
+    display: inline-block;
+    color: #3d4451;
+    font-weight: bold;
+    margin: 35px 0;
+    transition: box-shadow 300ms;
+
+}
+
+body > main .downloadResume:hover {
+    box-shadow: 0px 4px 12px 0px rgba(0,0,0,0.36);
+}
+
+body > main .downloadResume-wrapper {
+    text-align: center;
+}
+
+.self-introduction {
+    max-width: 944px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    line-height: 1.8em;
+    text-align: center;
 }
 
