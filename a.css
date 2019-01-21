@@ -229,14 +229,16 @@ body > main .downloadResume-wrapper {
     text-align: center;
 }
 
-section.skills {
+section.skills,
+section.portfolio {
     max-width: 944px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 66px;
 }
 
-section.skills > h2 {
+section.skills > h2,
+section.portfolio > h2 {
     color: #3d4451;
     font-size: 34px;
     line-height: 1.2;
