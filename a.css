@@ -282,3 +282,56 @@ section.skills .progressBar > .progress {
     background: #e8676b;
     border-radius: 2px;
 }
+
+section.portfolio {
+    text-align: center;
+}
+section.portfolio > nav {
+    /*text-align: center;*/
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 40px;
+}
+
+section.portfolio > nav > ol {
+    display: inline-block;
+    vertical-align: top;
+}
+
+section.portfolio > nav > ol > li {
+    margin-left: 40px;
+    float: left;
+    cursor: pointer;
+}
+
+section.portfolio > nav > ol > li:first-child {
+    margin-left: 0;
+}
+
+section.portfolio > nav > .bar {
+    height: 5px;
+    background: white;
+    border-radius: 2px;
+    margin: 15px 0;
+}
+
+section.portfolio > nav .bar-inner {
+    height: 100%;
+    width: 10%;
+    background: #e8676b;
+    border-radius: 2px;
+    transition: all 0.3s;
+}
+
+section.portfolio > nav .bar.state-1 .bar-inner{
+    margin-left: 0;
+    width: 30px;
+}
+section.portfolio > nav .bar.state-2 .bar-inner{
+    margin-left: 72px;
+    width: 33px;
+}
+section.portfolio > nav .bar.state-3 .bar-inner{
+    margin-left: 146px;
+    width: 94px;
+}
